@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PizzaMania</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/adaptive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="grid container">
+        <header class="header" id="header">
+            <div class="header__container container">
+                <a href="#" class="logo">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+                <div class="burger" id="burger">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40"
+                        viewBox="0,0,256,256">
+                        <g fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                            font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                            style="mix-blend-mode: normal">
+                            <g transform="scale(10.66667,10.66667)">
+                                <path
+                                    d="M3,5c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h18c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587zM3,11c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h18c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587zM3,17c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h18c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <div class="closed" id="closed">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40"
+                        viewBox="0,0,256,256">
+                        <g fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                            font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                            style="mix-blend-mode: normal">
+                            <g transform="scale(10.66667,10.66667)">
+                                <path
+                                    d="M4.99023,3.99023c-0.40692,0.00011 -0.77321,0.24676 -0.92633,0.62377c-0.15312,0.37701 -0.06255,0.80921 0.22907,1.09303l6.29297,6.29297l-6.29297,6.29297c-0.26124,0.25082 -0.36647,0.62327 -0.27511,0.97371c0.09136,0.35044 0.36503,0.62411 0.71547,0.71547c0.35044,0.09136 0.72289,-0.01388 0.97371,-0.27511l6.29297,-6.29297l6.29297,6.29297c0.25082,0.26124 0.62327,0.36648 0.97371,0.27512c0.35044,-0.09136 0.62411,-0.36503 0.71547,-0.71547c0.09136,-0.35044 -0.01388,-0.72289 -0.27512,-0.97371l-6.29297,-6.29297l6.29297,-6.29297c0.29576,-0.28749 0.38469,-0.72707 0.22393,-1.10691c-0.16075,-0.37985 -0.53821,-0.62204 -0.9505,-0.60988c-0.2598,0.00774 -0.50638,0.11632 -0.6875,0.30273l-6.29297,6.29297l-6.29297,-6.29297c-0.18827,-0.19353 -0.4468,-0.30272 -0.7168,-0.30273z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <nav class="menu">
+                    <ul class="menu__items">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Menu</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">About Us</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="dot">.</div>
+            </div>
+        </header>
+        <main class="main">
+            <h1>A taste you won't forget!</h1>
+            <div class="main__text">
+                Enjoy fresh and flavorful pizza!
+            </div>
+            <div class="main__facts">
+                <div class="main__fact">
+                    <img src="images/ok.png" alt="ok">
+                    <div class="fact__text">We use <span>100%</span> fresh ingredients</div>
+                </div>
+                <div class="main__fact">
+                    <img src="images/ok.png" alt="ok">
+                    <div class="fact__text">Over <span>500</span> satisfied customers</div>
+                </div>
+                <div class="main__fact">
+                    <img src="images/ok.png" alt="ok">
+                    <div class="fact__text">Our menu features more than <span>15</span> unique pizza recipes</div>
+                </div>
+            </div>
+            <div class="main__button">
+                <button class="btn main__btn">Place an order</button>
+            </div>
+        </main>
+        <div class="main__image">
+            <img src="images/pizza.png" id="dynamicImage" alt="Pizza">
+        </div>
+    </div>
+
+    <section class="info">
+        <div class="info__container container">
+            <div class="info__items">
+                <div class="info__item">
+                    <img src="images/history.png" alt="icon">
+                    <div class="info__item__text">Our pizzeria was founded in 2020 with one simple goal — to create the
+                        perfect pizza that brings people together. Since then, we have come a long way, from a small
+                        kitchen to a beloved spot for food enthusiasts in our city</div>
+                </div>
+                <div class="info__item">
+                    <img src="images/book.png" alt="icon">
+                    <div class="info__item__text">Our chefs have developed unique recipes that make our pizza truly
+                        special. Try our signature truffle pizza or the classic Margherita with a secret sauce</div>
+                </div>
+                <div class="info__item">
+                    <img src="images/ingridients.png" alt="icon">
+                    <div class="info__item__text">We believe that real pizza starts with quality ingredients. That's why
+                        we use only fresh vegetables, natural cheeses, and meat from local farmers</div>
+                </div>
+                <div class="info__item">
+                    <img src="images/group.png" alt="icon">
+                    <div class="info__item__text">Behind every delicious pizza is a team of true professionals! Our
+                        chefs are masters of their craft. We work with one goal in mind — to make you feel at home!
+                    </div>
+                </div>
+            </div>
+            <div class="info__button">
+                <button class="btn info__btn">Order delivery</button>
+            </div>
+            <div class="info__images">
+                <img src="images/food_court.png" alt="Pizzeria">
+            </div>
+        </div>
+    </section>
+
+    <section class="order">
+        <div class="order__container container">
+            <div class="form__container">
+                <div class="form__left">
+                    <h2>Order your favorite pizza!</h2>
+                    <form class="form" action="#" method="post">
+                        <input type="text" id="name" name="name" placeholder="Name" required>
+                        <input type="email" id="email" name="email" placeholder="E-mail" required>
+                        <input type="tel" id="phone" name="phone" placeholder="+7 (___) - ___ - __ - __" required>
+                        <div class="form-group">
+                            <label>
+                                <input type="checkbox" name="consent" required>
+                                <span>I agree to the processing of data</span>
+                            </label>
+                        </div>
+                        <button class="btn form__btn" type="submit">Submit</button>
+                    </form>
+                </div>
+
+                <div class="form__right">
+                    <img class="form__right__img" src="images/pizza_form.png" alt="Pizza">
+                    <img class="form__right__img2" src="images/pizza__mania.png" alt="Pizza">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <a class="footer__logo">
+                <img src="images/logo.png" alt="logo">
+            </a>
+            <div class="footer__icons">
+                <a href="#">
+                    <img src="images/icons/inst.png" alt="instagram" class="icon">
+                    <img src="images/icons/inst_hover.png" alt="instagram" class="icon hover-icon">
+                </a>
+                <a href="#">
+                    <img src="images/icons/tik_tok.png" alt="tik tok" class="icon">
+                    <img src="images/icons/tik_tok_hover.png" alt="tik tok" class="icon hover-icon">
+                </a>
+                <a href="#">
+                    <img src="images/icons/facebook.png" alt="facebook" class="icon">
+                    <img src="images/icons/facebook_hover.png" alt="facebook" class="icon hover-icon">
+                </a>
+                <a href="#">
+                    <img src="images/icons/telegram.png" alt="telegram" class="icon">
+                    <img src="images/icons/telegram_hover.png" alt="telegram" class="icon hover-icon">
+                </a>
+                <a href="#">
+                    <img src="images/icons/youtube.png" alt="youtube" class="icon">
+                    <img src="images/icons/youtube_hover.png" alt="youtube" class="icon hover-icon">
+                </a>
+            </div>
+            <!-- <div class="footer__button">
+                <button class="btn btn__footer">Order</button>
+            </div> -->
+            <div class="footer__rights">All rights reserved, <span id="currentYear"></span></div>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
