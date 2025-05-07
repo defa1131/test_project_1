@@ -16,7 +16,9 @@
 
 
 @media screen and (max-width: 1650px) {
-
+    h1 {
+        font-size: 70px;
+    }
 
     h2 {
         max-width: 570px;
@@ -68,7 +70,27 @@
 }
 
 @media screen and (max-width: 1470px) {
+    h1 {
+        font-size: 60px;
+    }
 
+    .main {
+        max-width: 467px;
+    }
+
+    .main__text {
+        font-size: 45px;
+        margin-top: 45px;
+        margin-bottom: 50px;
+    }
+
+    .main__btn {
+        font-size: 22px;
+    }
+
+    .fact__text {
+        font-size: 20px;
+    }
 
     .info__container {
         grid-template-columns: 1fr 1fr;
